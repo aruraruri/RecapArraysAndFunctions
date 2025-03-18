@@ -6,7 +6,7 @@ const numbers = [];
 document.body.innerHTML = "<h1>Even Numbers</h1>";
 
 while (true) {
-  const input = prompt("Enter a number: ");
+  const input = prompt("Enter a number (or cancel to stop): ");
   if (input === null) {
     alert("Program finished!");
     break;
